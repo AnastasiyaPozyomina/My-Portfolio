@@ -18,6 +18,7 @@ h2 {
 p {
   font-family: 'Lora', serif;
   color: #38550f;
+  font-weight: lighter;
 }
 /* меню*/
 .navbar {
@@ -112,18 +113,20 @@ padding: 10px;
   margin: 3em 0;
   padding: 1em;
   position: relative;
-
+background-color: white;
 }
 
 .about h2 {
-  color: #F97300;
+  color: #fe7e18;
   margin: 2em;
+  font-family: 'Concert One', cursive;
 }
 
 .about img {
   height: 100%;
   width: 100%;
   border-radius: 40%;
+  object-fit: contain;
 }
 
 .about span {
@@ -135,34 +138,22 @@ padding: 10px;
 
 .about .desc {
   padding: 2em;
-  border-left: 4px solid #10828C;
+
 }
 
-.about .desc h3 {
-  color: #10828C;
-}
+
 
 .about .desc p {
   line-height: 2;
-  color: #888;
+  color: #0f1c08;
+  font-size: 18px;
+  font-weight: 400;
 }
 
-.slills {
-display: flex;
-flex-wrap:wrap;
-height: 100%;
+.progress {
+margin: 20px;
 }
-.skills-item {
-  width: 50px;
-  height: 50px;
-  display: block;
-  object-fit: cover;
-  width: 25%;
-  margin: 0.5em;
-}
-.jquery {
- width: 45px;
-}
+
 /*portfolio*/
 
 /*Portfolio*/
