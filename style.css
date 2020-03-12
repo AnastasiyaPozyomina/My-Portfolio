@@ -171,7 +171,7 @@ h2 {
   margin: 20px;
 }
 
-/*portfolio*/
+
 
 /*Portfolio*/
 .portfolio-wrapper {
@@ -207,7 +207,6 @@ h2 {
 }
 
 .card-img-top img {
-  object-fit: cover;
   cursor: pointer;
 }
 
@@ -217,6 +216,41 @@ h2 {
   display: block;
 }
 
+.column {
+  display: none; /* Hide columns by default */
+}
+
+/* Content */
+// .content {
+//   background-color: white;
+//   padding: 10px;
+// }
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn-portfolio {
+border: none;
+outline: none;
+padding: 12px 16px;
+background-color: white;
+cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.btn-portfolio:hover {
+background-color: #eb5201;
+color: white;
+}
+
+/* Add a dark background color to the active button */
+.btn-portfolio.active {
+background-color: #ffc107;
+ color: black;
+}
 /*certificates*/
 #certificates h2 {
   padding-top: 2em;
@@ -550,3 +584,27 @@ h2 {
 .penguin * {
   position: absolute;
 }
+
+
+
+
+
+
+
+
+
+
+  .row {
+    margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+    padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+
+
+
