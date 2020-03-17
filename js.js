@@ -21,10 +21,12 @@ function writeTextByJS(id, text, speed){
 writeTextByJS(
     "main-title",
      [
-         "Анастасия Позёмина.\n",
-         "Начинающий фронтенд-разработчик.\n"
+         "HTML-верстальщик.\n",
+         "Анастасия Позёмина.\n"
       ]
   );
+
+  
 
   writeTextByJS(
     "main-p",
